@@ -32,4 +32,4 @@ export const links = [
         name: "Contact",
         hash: "#contact",
     }
-]
+] as const;

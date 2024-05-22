@@ -18,7 +18,9 @@ export default function Header() {
             <ul className='flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-slate-500 sm:w-[initial] sm:flex-nowrap sm:gap-5'>
               {
                 links.map((link) => (
-                  <motion.li className='h-3/4 flex items-center justify-center' key={link.hash}
+                  <motion.li 
+                  className='h-3/4 flex items-center justify-center' 
+                  key={link.hash}
                   initial={{opacity: 0, y: -100}}
                   animate={{opacity: 1, y: 0}}
                   >
